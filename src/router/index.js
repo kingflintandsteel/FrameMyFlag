@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import home from '../pages/home.vue'
+import vintage from '../pages/vintage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,7 +13,7 @@ const router = createRouter({
     {
       path: '/vintage',
       name: 'vintage',
-      component: () => import('../pages/vintage.vue')
+      component: vintage
     },
     {
       path: '/betsy',
