@@ -1,7 +1,7 @@
 <template>
   <img src="../images/banner1.jpg" class="imageBanner">
   <div class="page">
-    <div class="introText noSale">
+    <div class="introText">
       <img src="../images/Semi-Annual-Sales-Event.jpg" alt="Semi-Annual Sales Event" class="saleImage" />
       <p>
         The Frame My Flag Company is proud to present our "AMERICANA VINTAGE COLLECTION" created from USA Made 100%

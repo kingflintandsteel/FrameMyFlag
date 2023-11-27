@@ -204,7 +204,7 @@ export default {
       if (this.customFramed) this.price = this.price + 100;
       this.image = data.image;
       loadScript({
-        'client-id': 'AdKmM_mRG9E8SE0FRxmRmHFcS_Gse95_8sTkUiP0Yuhb73BqfJTwIi9pDXKrmyat2wMBrrLo9ulwStzY',
+        'client-id': 'AeCPYoUvOvaR8F64yFyFxkVm1zKrr5FnkTJy_-136M78qBdsuk8sK7rcjc0EnX9pILc0igF7lWbrK7ew',
         'disable-funding': 'paylater',
         'components': "buttons"
       }).then((paypal) => {
