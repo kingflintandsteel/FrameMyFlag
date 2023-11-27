@@ -38,7 +38,7 @@ const router = createRouter({
     {
       path: '/frameYourflag',
       name: 'frameYourflag',
-      component: () => import('../pages/frameYourflag.vue')
+      component: () => import('../pages/frameYourFlag.vue')
     },
     {
       path: '/checkout',
