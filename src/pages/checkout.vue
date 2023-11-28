@@ -73,7 +73,7 @@ export default {
       paid: false,
       cart: false,
       image: "",
-      discounts: {'design': 'testCode', 'firstResponder': 'testCode2'},
+      discounts: {'design': 'FlagV1P', 'firstResponder': 'Fl4gTYFYS'},
       appliedDiscount: null,
       discountAmount: null
     }
