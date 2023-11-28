@@ -1,0 +1,6 @@
+name: deploy HEAD commit
+
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - npm run serve
