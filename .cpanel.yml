@@ -3,4 +3,7 @@ name: deploy HEAD commit
 deployment:
   tasks:
     - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R src $DEPLOYPATH
+    - npm install
     - npm run serve
