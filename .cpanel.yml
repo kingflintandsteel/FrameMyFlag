@@ -3,7 +3,7 @@ name: deploy HEAD commit
 deployment:
   tasks:
     - npm install
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home/ycompar3/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R src $DEPLOYPATH
     - npm run serve
