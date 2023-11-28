@@ -1,8 +1,6 @@
 ---
 deployment:
   tasks:
-    - npm install
     - export DEPLOYPATH=/home/ycompar3/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R src $DEPLOYPATH
-    - npm run serve
