@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ycompar3/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp -R dist $DEPLOYPATH
