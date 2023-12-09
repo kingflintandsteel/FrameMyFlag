@@ -35,11 +35,11 @@ const router = createRouter({
       name: 'unframed',
       component: () => import('../pages/unframed.vue')
     },
-    {
+    /**{
       path: '/frameYourflag',
       name: 'frameYourflag',
       component: () => import('../pages/frameYourFlag.vue')
-    },
+    },**/
     {
       path: '/checkout',
       name: 'checkout',

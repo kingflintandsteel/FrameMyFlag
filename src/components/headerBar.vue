@@ -9,7 +9,7 @@
       <RouterLink to="/bennington"><p class="link">Bennington 1776</p></RouterLink>
       <RouterLink to="/traditional"><p class="link">Traditional U.S. Flag</p></RouterLink>
       <RouterLink to="/unframed"><p class="link">Vintage (Unframed)</p></RouterLink>
-      <RouterLink to="/frameyourflag"><p class="link">Frame Your Flag</p></RouterLink>
+      <!--<RouterLink to="/frameyourflag"><p class="link">Frame Your Flag</p></RouterLink>-->
       <dropdownMenu menuName="More..." :menuItems="moreList"></DropdownMenu>
     </div>
   </div>
