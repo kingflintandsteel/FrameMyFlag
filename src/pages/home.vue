@@ -1,5 +1,5 @@
 <template>
-  <img src="../images/banner1.jpg" class="imageBanner">
+  <img src="../images/banner1-1.jpg" class="imageBanner">
   <div class="page">
     <div class="introText">
       <img src="../images/Semi-Annual-Sales-Event.jpg" alt="Semi-Annual Sales Event" class="saleImage" />
@@ -152,12 +152,6 @@
     <hr class="seperator">
     <div class="links">
       <div class="imageLink">
-        <a href="https://www.etsy.com/shop/FrameMyFlag" target="_blank">
-          <img src="../images/etsy-logo.jpg" alt="Etsy Logo" />
-        </a>
-        <p>You can also find us on Etsy</p>
-      </div>
-      <div class="imageLink">
         <a href="https://www.missingkids.org/supportus/waystogive" target="_blank">
           <img src="../images/missing-children-network-logo.jpg" alt="Etsy Logo" />
         </a>
@@ -258,7 +252,6 @@ export default {
 <style scoped>
 .imageBanner {
   width: 100%;
-  margin-top: -20%;
 }
 
 .introText {
@@ -350,7 +343,7 @@ export default {
 
 .links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   & .imageLink {
     display: flex;
     flex-direction: column;
